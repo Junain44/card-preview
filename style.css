@@ -1,0 +1,114 @@
+/* 
+## Colors
+
+### Primary
+
+Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)
+
+### Neutral
+
+Transparent white (paragraphs): hsla(0, 0%, 100%, 0.75)
+Very light gray (background, headings, buttons): hsl(0, 0%, 95%)
+
+## Typography
+
+### Body Copy
+
+- Font size: 15px
+
+### Font
+
+- Family: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca)
+- Weights: 400
+
+- Family: [Big Shoulders Display](https://fonts.google.com/specimen/Big+Shoulders+Display)
+- Weights: 700 */
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Lexend+Deca:wght@700&display=swap');
+
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+font-family: "Lexend Deca", serif;
+font-weight: 400;
+}
+
+.card  {
+    display: flex;
+    padding: 4rem 16rem;
+}
+
+.cards{
+    padding: 4rem 3rem;
+}
+
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+} 
+
+.sedan button{
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.suvs button{
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.luxury button {
+    color: hsl(179, 100%, 13%);
+}
+
+.cards img{
+padding: 1rem 2rem;
+}
+
+.cards h2{
+padding: 1rem 2rem;
+font-size: 30px;
+font-weight: 700;
+color:#fff;
+}
+
+.cards p{
+    padding-top: 1rem;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 0rem;
+}
+
+.cards button{
+    padding: 1rem 2rem;
+    margin: 1rem 2rem;
+    border-radius: 30px;
+    font-size: 17px;
+    font-family: "Lexend Deca", serif;
+    border: none;
+}
+
+@media only screen and (max-width: 1200px) {
+  .card{
+    flex-direction: column;
+    padding: 1rem 2rem;
+    margin: 0;
+  }
+  }
