@@ -44,6 +44,12 @@ font-weight: 400;
 .card  {
     display: flex;
     padding: 4rem 16rem;
+    border: 0px solid;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 .cards{
@@ -108,7 +114,29 @@ color:#fff;
 @media only screen and (max-width: 1200px) {
   .card{
     flex-direction: column;
-    padding: 1rem 2rem;
+    padding: 0;
     margin: 0;
+    text-align: center;
   }
+
+  .cards img{
+    padding: 1rem 2rem;    
+}
+    
+    .cards h2{
+        padding: 1rem 2rem;
+  
+    }
+    
+    .cards p{
+        padding-top: 1rem;
+        padding-bottom: 2rem;
+        padding-left: 8rem;
+        padding-right: 8em;
+    }
+    
+    .cards button{
+        margin: 1rem 2rem;
+        
+    }
   }
