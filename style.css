@@ -131,8 +131,8 @@ color:#fff;
     .cards p{
         padding-top: 1rem;
         padding-bottom: 2rem;
-        padding-left: 8rem;
-        padding-right: 8em;
+        padding-left: 0;
+        padding-right: 0;
     }
     
     .cards button{
